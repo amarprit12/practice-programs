@@ -1,6 +1,6 @@
 package Practice;
 
-public class test14 {
+public class Test14 {
     public static void main(String[] args) {
         // tower of hanoi
         int n = 3;
