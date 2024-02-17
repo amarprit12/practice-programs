@@ -20,7 +20,11 @@ public class BinaryTree1 {
         tree1.root.left = new Node(2);
 
         tree1.root.right = new Node(3);
+        tree1.root.left.right = new Node(4);
+        tree1.root.left.right.right = new Node(5);
+        tree1.root.left.right.right.right = new Node(6);
         tree1.printLeftView(tree1.root);
+
     }
 
     private void printLeftView(Node root) {
