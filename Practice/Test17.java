@@ -1,6 +1,6 @@
 package Practice;
 
-public class test17 {
+public class Test17 {
     public static void main(String[] args) {
         int[] a = {0, -1, 2, -3, 1};
         int n = a.length;
