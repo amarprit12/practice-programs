@@ -13,6 +13,7 @@ public class Test13 {
         }
     }
 
+    //checkPalindrome
     private static boolean checkPalindrome(String str) {
         int n = str.length();
         boolean result = false;
