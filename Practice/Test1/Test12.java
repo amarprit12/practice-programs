@@ -8,6 +8,7 @@ public class Test12 {
         findMajority(a, n);
     }
 
+    //findMajority
     private static void findMajority(int[] a, int n) {
         int i, j;
         int count;
