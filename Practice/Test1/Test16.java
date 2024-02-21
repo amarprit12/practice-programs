@@ -8,6 +8,7 @@ public class Test16 {
         findMaximumElement(a, a.length);
     }
 
+    //findMinimumElement
     private static void findMinimumElement(int[] a, int n) {
         int minimum = Integer.MAX_VALUE;
         for (int i = 0; i < n; i++) {
@@ -18,7 +19,7 @@ public class Test16 {
         System.out.println("Minimum value is : " + minimum);
     }
 
-
+    // findMaximumElement
     private static void findMaximumElement(int[] a, int n) {
         int maximum = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
