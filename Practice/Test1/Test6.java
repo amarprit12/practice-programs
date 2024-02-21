@@ -9,6 +9,7 @@ public class Test6 {
         printArray(a, n);
     }
 
+    //segregateEvenOdd
     private static void segregateEvenOdd(int[] a, int n) {
         int i = 0, j = n - 1;
         while (i < j) {
