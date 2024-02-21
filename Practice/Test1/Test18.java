@@ -13,6 +13,7 @@ public class Test18 {
         }
     }
 
+    //findTripletsWithGivenSum
     private static boolean findTripletsWithGivenSum(int[] a, int n, int sum) {
         for (int i = 0; i < n - 2; i++) {
             for (int j = i + 1; j < n - 1; j++) {
