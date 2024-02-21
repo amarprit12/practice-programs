@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Test1;
 
 public class Test5 {
     // kadane algo

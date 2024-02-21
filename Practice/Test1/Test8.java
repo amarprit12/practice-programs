@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Test1;
 
 public class Test8 {
     // sort array of 0,1 and 2
@@ -23,7 +23,7 @@ public class Test8 {
         int mid = 0, temp;
         while (mid <= high) {
             switch (a[mid]) {
-                case 0: {
+                case 0:
 //                    swap(a[low], a[mid]);
                     temp = a[low];
                     a[low] = a[mid];
@@ -31,15 +31,16 @@ public class Test8 {
                     low++;
                     mid++;
 
-                }
+                    break;
                 case 1:
                     mid++;
-                case 2: { // swap(a[mid], a[high);
+                    break;
+                case 2: // swap(a[mid], a[high);
                     temp = a[high];
                     a[high] = a[mid];
                     a[mid] = temp;
                     high--;
-                }
+
             }
         }
 

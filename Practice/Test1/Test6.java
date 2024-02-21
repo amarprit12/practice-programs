@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Test1;
 
 public class Test6 {
     //segregate even and odd

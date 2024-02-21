@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Test1;
 
 public class Test19 {
     public static void main(String[] args) {
@@ -14,12 +14,12 @@ public class Test19 {
     private static void printUnion(int[] a, int[] b, int m, int n) {
         int i = 0, j = 0;
         while (i < m && j < n) {
-            if (a[i] < b[j]) {
+            if (a[i] < b[j]) { // print smaller
                 System.out.print(a[i++] + " ");
             } else if (b[j] < a[i]) {
                 System.out.print(b[j++] + " ");
             } else {
-                System.out.print(a[i++] + " ");
+                System.out.print(a[i++] + " "); // print common
                 j++;
             }
         }
