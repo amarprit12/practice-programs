@@ -8,6 +8,7 @@ public class Test20 {
         findNumOccurringOdd(a, n);
     }
 
+    //findNumOccurringOdd
     private static void findNumOccurringOdd(int[] a, int n) {
         int x1 = 0;
         for (int i = 0; i < n; i++) {
