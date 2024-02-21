@@ -9,6 +9,7 @@ public class Test3 {
         findSecondLargest(a, n);
     }
 
+    //findSecondLargest
     private static void findSecondLargest(int[] a, int n) {
         int first, second;
         if (n < 2) {
