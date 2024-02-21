@@ -16,6 +16,7 @@ public class Test4 {
         }
     }
 
+    //moveAllZeroesToEnd
     private static void moveAllZeroesToEnd(int[] a, int n) {
         int j = 0; // count of non-zero elements
         for (int i = 0; i < n; i++) {
