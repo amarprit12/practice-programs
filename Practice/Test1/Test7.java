@@ -15,6 +15,7 @@ public class Test7 {
         }
     }
 
+    //reverseArray
     private static void reverseArray(int[] a, int n) {
         int start = 0, end = n - 1;
         while (start < end) {
