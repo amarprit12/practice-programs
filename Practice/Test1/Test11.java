@@ -13,6 +13,7 @@ public class Test11 {
         }
     }
 
+    //binarySearch
     private static int binarySearch(int[] a, int n, int x) {
         int l = 0, h = n - 1;
         int index = -1;
