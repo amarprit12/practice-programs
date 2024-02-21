@@ -7,6 +7,7 @@ public class Test17 {
         findTriplets(a, n);
     }
 
+    // findTriplets with 0 sum
     private static void findTriplets(int[] a, int n) {
         for (int i = 0; i < n-2; i++) {
             for (int j = i + 1; j < n-1; j++) {
