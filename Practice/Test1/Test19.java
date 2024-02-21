@@ -11,6 +11,7 @@ public class Test19 {
         printIntersection(a1, a2, m, n);
     }
 
+    //printUnion
     private static void printUnion(int[] a, int[] b, int m, int n) {
         int i = 0, j = 0;
         while (i < m && j < n) {
@@ -31,6 +32,7 @@ public class Test19 {
         }
     }
 
+    //printIntersection
     private static void printIntersection(int[] a, int[] b, int m, int n) {
         int i = 0, j = 0;
         while (i < m && j < n) {
