@@ -20,7 +20,7 @@ public class Test15 {
         System.out.println("MissingNo: " + missingNo);
     }
 
-    // using XOR
+    //findMissingNo using XOR
     private static void findMissingNo1(int[] a, int n) {
         int x = 0, x1 = 0;
         int missingNo;
