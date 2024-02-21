@@ -8,6 +8,7 @@ public class Test10 {
 
     }
 
+    //linearSearch
     private static void linearSearch(int[] a, int n, int x) {
         int index = -1;
         for (int i = 0; i < n; i++) {
