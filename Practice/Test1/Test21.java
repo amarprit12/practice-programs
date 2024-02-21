@@ -9,6 +9,7 @@ public class Test21 {
 
     }
 
+//   segregate0And1
     private static void segregate0And1(int[] a, int n) {
         int i = 0, j = n - 1;
         while (i < j) {
