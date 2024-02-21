@@ -18,6 +18,7 @@ public class Test8 {
 
     }
 
+    // sortArray 0,1 and 2
     private static void sortArray012(int[] a, int n) {
         int low = 0, high = n - 1;
         int mid = 0, temp;
