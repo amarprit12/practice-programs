@@ -8,7 +8,7 @@ public class Test5 {
         System.out.println("maximum contiguous sum is : " + result);
 
     }
-
+    // maxSubArraySum
     private static int maxSubArraySum(int[] a, int n) {
         int maxSoFar = Integer.MIN_VALUE;
         int maxEnd = 0;
