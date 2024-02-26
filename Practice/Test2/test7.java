@@ -17,6 +17,7 @@ public class test7 {
                     return;
                 }
             }
+            System.out.println("No pair found with the given sum");
         }
     }
 
