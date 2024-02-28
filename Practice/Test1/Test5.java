@@ -8,19 +8,25 @@ public class Test5 {
         System.out.println("maximum contiguous sum is : " + result);
 
     }
+
     // maxSubArraySum
     private static int maxSubArraySum(int[] a, int n) {
         int maxSoFar = Integer.MIN_VALUE;
         int maxEnd = 0;
+        int start = 0, end = 0, s = 0;
         for (int i = 0; i < n; i++) {
             maxEnd += a[i];
             if (maxSoFar < maxEnd) {
                 maxSoFar = maxEnd;
+                start = s;
+                end = i;
             }
             if (maxEnd <= 0) {
                 maxEnd = 0;
+                s = i + 1;
             }
         }
+        System.out.println("Start: " + start + " end : " + end);
         return maxSoFar;
     }
 
