@@ -1,4 +1,4 @@
-package Practice.Test3;
+package Practice;
 
 public class BinaryTree7 {
 
