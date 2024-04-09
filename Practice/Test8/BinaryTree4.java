@@ -1,6 +1,6 @@
-package Practice;
+package Practice.Test8;
 
-public class BinaryTree3 {
+public class BinaryTree4 {
     Node root;
 
     static class Node {
@@ -13,32 +13,26 @@ public class BinaryTree3 {
         }
     }
 
-    BinaryTree3() {
+    BinaryTree4() {
         root = null;
     }
 
     public static void main(String[] args) {
-        BinaryTree3 tree = new BinaryTree3();
+        BinaryTree4 tree = new BinaryTree4();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
-        int height = tree.findHeight(tree.root);
-        System.out.println(height);
+        int size = tree.findSize(tree.root);
+        System.out.println(size);
     }
 
-    private int findHeight(Node root) {
+    private int findSize(Node root) {
         if (root == null) {
             return 0;
         }
-        int lHeight = findHeight(root.left);
-        int rHeight = findHeight(root.right);
-        if (lHeight > rHeight) {
-            return lHeight + 1;
-        } else {
-            return rHeight + 1;
-        }
+        return findSize(root.left) + 1 + findSize(root.right);
     }
 
 }

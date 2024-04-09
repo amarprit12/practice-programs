@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Test8;
 
 class Node {
     int data;

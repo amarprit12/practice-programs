@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Test8;
 
 public class BinaryTree5 {
     Node root;
